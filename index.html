@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Ping Pong Scorekeeper</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="iconLogo"></div>
+			<div class="title"><h1>Scorekeeper</h1>
+			</div>
+			<div class="gamePoints">
+			</div>
+			<div class="displayScore">
+				<h1><span id='p1Display'>0</span> to <span id='p2Display'>0</span></h1>
+			</div>
+			<div class="btns1">
+				<button id='p1Button'>+1 Player One</button>
+			</div>
+			<div class="btns1">
+				<button id='p2Button'>+1 Player Two</button>
+			</div>
+			<span>Play to:</span>
+			<select id="playto" class="selectGamePoints">
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+			</select>
+			<div class="btns">
+				<button id='resetButton'>Reset</button>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
